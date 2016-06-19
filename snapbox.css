@@ -1,0 +1,53 @@
+.snapbox-gallery{
+    padding: 0;
+}
+.snapbox-gallery li{
+    list-style: none;
+    display: inline-block;
+}
+.snapbox-gallery .attachment-thumbnail{
+    margin-right: 20px;
+}
+.snapbox-lightbox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.snapbox-imagebox{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+[class^=snapbox-img]{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+[class^=snapbox-control]{
+    position: absolute;
+    z-index: 1;
+}
+.snapbox-control-close{
+    right: 5%;
+    top: 5%;
+}
+[class^=snapbox-control-toggle]{
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    text-align: center;
+}
+.snapbox-control-toggle-next{
+    right: 0;
+}
+.snapbox-control-toggle-prev{
+    left: 0;
+}
