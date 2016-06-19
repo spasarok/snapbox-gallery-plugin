@@ -18,10 +18,19 @@ function snapbox($atts) {
     wp_enqueue_script('snapbox');
 
     $ids = explode(',', $atts['ids']);
+    $atts['size'] ? $size = $atts['size'] : $size = 'thumbnail';
+    $atts['columns'] ? $cols = $atts['columns'] : $cols = 3;
+    $col = 0;
 
     echo '<div class="snapbox-wrapper"><ul class="snapbox-gallery">';
     foreach($ids as $id):
-        echo '<li data-snapbox-id="' . $id . '" class="snapbox-' . $id . '">' . wp_get_attachment_image($id, 'thumbnail', $icon = null, array('class' => 'attachment-thumbnail', 'data-snapbox-id' => $id)) . '</li>';
+        echo '<li data-snapbox-id="' . $id . '" class="snapbox-' . $id . '">' . wp_get_attachment_image($id, $size, $icon = null, array('class' => 'attachment-thumbnail', 'data-snapbox-id' => $id)) . '</li>';
+        if($col == $cols - 1):
+            $col = 0;
+            echo '<br />';
+        else:
+            $col++;
+        endif;
 
     endforeach;
     echo '</ul></div>';

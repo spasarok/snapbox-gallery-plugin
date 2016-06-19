@@ -11,9 +11,9 @@ Now viewers can easily browse full-size images without needed to load every imag
 * Install and activate Snapbox Gallery Plugin
 * Install and active the WordPress REST API plugin
 * <a href="https://en.support.wordpress.com/gallery/">Add a gallery to your page</a>
-  * Note that Snapbox automatically replaces the default WordPress gallery with a thumbnail grid with as many columns
-  as the containing element allows
-* Publish and view
+  * Snapbox does support the default gallery columns attribute
+  * Snapbox does support the default gallery size attribute
+  * Snapbox does not support the deftault gallery random order attribute
 
 # License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Toggle Maps</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Kim Spasaro</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
