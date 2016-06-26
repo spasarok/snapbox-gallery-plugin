@@ -21,3 +21,10 @@ Now viewers can easily browse full-size images without needed to load every imag
 * You may not modify and/or sell and/or redistribute this work for commercial purposes.
 * When sharing this work with modifications or changes, you must share this work under these same license and conditions.
 * Please acknowledge the author when modifying and/or redistributing this work.
+
+## Icon License
+Creative Commons (Attribution 3.0 Unported)
+
+* Icons created by Icons Design on IconFinder.com
+* View icons here: <a href="https://www.iconfinder.com/iconsets/slim-square-icons-basics">IconFinder</a>
+* Please follow the icon license and credit the icons in your site credits
