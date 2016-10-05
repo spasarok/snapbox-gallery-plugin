@@ -5,7 +5,7 @@ Snapbox replaces the default WordPress gallery with a snappy and responsive ligh
 Clicking a thumbnail in the default WordPress gallery takes you to that thumbnail's media page.
 Clicking a thumbnail in the Snapbox gallery brings up a lightbox on the current page instead.
 The lightbox's next and previous images are always preloaded for snappy image transitions.
-Now viewers can easily browse full-size images without needed to load every image, and without needing to leave the page.
+Now viewers can easily browse full-size images without needing to load every image, and without needing to leave the page.
 
 # How to Use
 * Install and activate Snapbox Gallery Plugin
